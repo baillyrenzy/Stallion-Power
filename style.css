@@ -155,3 +155,6 @@ section.red .card{background:#2a1c1f;border-color:#4a3a3d;color:#f3dcde}
 .mini div{border-top:3px solid var(--red);padding-top:10px;font-size:.95rem}
 .mini b{display:block;font-family:var(--display);font-size:1.15rem;font-weight:600}
 @media (max-width:900px){.mini{grid-template-columns:1fr}}
+
+/* hero title: long official title */
+.hero h1{font-size:clamp(2rem,4.2vw,3.3rem);line-height:1.12}
